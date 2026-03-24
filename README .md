@@ -18,7 +18,7 @@ Proyek ini mencakup:
 5. Identifikasi feature importance
 6. Pembuatan dashboard Tableau
 7. Pembuatan prototype solusi machine learning yang siap digunakan
-7. Penyusunan rekomendasi action plan
+8. Penyusunan rekomendasi action plan
 
 
 ### Persiapan
@@ -56,12 +56,36 @@ Masukan perintah di terminal *venv\Scripts\activate*
 6. Step 6 - Install library yang dibutukan
 Masukan perintah di terminal *pip install -r requirements.txt*
 
-7. Stepp 7 - Jalankan file python
+7. Step 7 - Jalankan file python
 Bisa dengan memasukan perintah *python hr_attrition_model.py* ataupun menggunakan shortcut *Ctrl+Alt+n*
 
 
 ## Business Dashboard
-Jelaskan tentang business dashboard yang telah dibuat. Jika ada, sertakan juga link untuk mengakses dashboard tersebut.
+Dashboard dibuat menggunakan Tableau dengan fokus pada:
+
+1. Dropout Overview
+    - Dropout Rate (%)
+    - Graduation Rate (%)
+    - Total Student
+    - Average Grade
+
+2. Gender Analisis
+    - Dropout per Gender
+
+3. Scholarship Holder Analisis
+    - Dropout berdasarkan status mahasiswa
+
+4. Attendance Analisis
+    - Dropout berdasarkan waktu kuliah
+
+5. Analisis berbasis Jurusan dan status perkuliahan
+
+Dashboard membantu institusi untuk:
+    - Mengidentifikasi area risiko tinggi
+    - Memahami karakteristik mahasiswa dropout
+    - Melakukan intervensi berbasis data
+
+Link Akses: https://public.tableau.com/shared/W3X64QSNG?:display_count=n&:origin=viz_share_link
 
 ## Menjalankan Sistem Machine Learning
 Prerequisites
@@ -78,7 +102,7 @@ streamlit run app.py
 ```
 3. Aplikasi akan berjalan secara lokal di `http://localhost:8501` 
 
-4. Jika ingin mengakses langsung dapat mengunjungi link `https://student-dropout-jaya.streamlit.app/`
+4. Jika ingin mengakses langsung dapat mengunjungi link *https://student-dropout-jaya.streamlit.app/*
 
 ## Conclusion
 Berdasarkan pengolahan dan analisa data, didapatkan beberapa fakta bahwa mahasiswa dengan biaya tunggakan memiliki risiko lebih tinggi untuk dropout yakni **~67%** dibanding dengan yang sudah melunasi yang hanya sebesar **~19%** serta bukan merupakan penerima beasiswa juga memiliki risiko tinggi yakni **~42%** berbanding dengan penerima beasiswa yang hanya **~16%**.
