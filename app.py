@@ -383,8 +383,8 @@ with tab2:
     st.markdown("### Ringkasan Performa Model")
 
     col1, col2, col3, col4 = st.columns(4)
-    col1.metric("Accuracy",  "91.05%", "+vs baseline 67%")
-    col2.metric("ROC-AUC",   "0.9566",  "Excellent")
+    col1.metric("Accuracy",  "91.05%", "")
+    col2.metric("ROC-AUC",   "0.9566",  "")
     col3.metric("Precision (Dropout)", "92%",  "")
     col4.metric("Recall (Dropout)",    "84%",  "")
 

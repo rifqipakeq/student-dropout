@@ -78,7 +78,7 @@ streamlit run app.py
 ```
 3. Aplikasi akan berjalan secara lokal di `http://localhost:8501` 
 
-4. Jika ingin mengakses langsung dapat mengunjungi link ``
+4. Jika ingin mengakses langsung dapat mengunjungi link `https://student-dropout-jaya.streamlit.app/`
 
 ## Conclusion
 Berdasarkan pengolahan dan analisa data, didapatkan beberapa fakta bahwa mahasiswa dengan biaya tunggakan memiliki risiko lebih tinggi untuk dropout yakni **~67%** dibanding dengan yang sudah melunasi yang hanya sebesar **~19%** serta bukan merupakan penerima beasiswa juga memiliki risiko tinggi yakni **~42%** berbanding dengan penerima beasiswa yang hanya **~16%**.
